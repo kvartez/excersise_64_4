@@ -70,7 +70,7 @@ void ex64::loop(){
         if(ddd==0){
         	good++;
 		}else if(ddd==1){
-			cout << "w obrazku"<<i<<"zmienic kordy x:"<<xkor<<"y:"<<ykor<<endl;
+			cout << "w obrazku"<<i+1<<"zmienic kordy x:"<<xkor+1<<"y:"<<ykor+1<<endl;
 			fixable++;
 		}else if(ddd>1){
 			bad++;
